@@ -28,7 +28,7 @@ export default async function WatchPage({
 
   const childId = Number(childIdParam);
   const submissionId = Number(submissionIdParam);
-console.log(childId);
+// console.log(childId);
   if (
     !Number.isInteger(childId) ||
     !Number.isInteger(submissionId)
