@@ -32,5 +32,7 @@ jobs:
 
       - name: Build application
         run: npm run build
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+         env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
